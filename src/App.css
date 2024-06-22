@@ -1,0 +1,44 @@
+/* body{
+
+} */
+.container{
+width: 100%;
+max-width: 375px;
+margin-inline: auto;
+}
+
+.info__wrapper{
+  padding: 2em;
+  position: relative;
+  top: -100px;
+  background-color: var(--Primarywhite);
+  width: 90%;
+  margin: 0 auto;
+}
+.info__title{
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.info__title img{
+  align-self:flex-end;
+}
+
+.accordion div{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+/* .accordion div img{
+
+} */
+
+.hide{
+display: none;
+}
+
+.block{
+  display: block;
+}
