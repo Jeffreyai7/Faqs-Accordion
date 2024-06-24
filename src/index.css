@@ -6,6 +6,28 @@
 
 }
 
+@font-face {
+  font-family: "WorkSans-bold" ;
+  src: url("/assets/fonts/static/WorkSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "WorkSans-Semibold" ;
+  src: url("/assets/fonts/static/WorkSans-SemiBold.ttf");
+}
+
+@font-face{
+font-family: "WorkSans-regular";
+src: url("/assets/fonts/static/WorkSans-Regular.ttf");
+
+}
+
+
+body{
+  font-family:'WorkSans-regular'
+}
+
+
 /* Box sizing rules */
 *,
 *::before,
