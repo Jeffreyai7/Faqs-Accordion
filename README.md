@@ -1,5 +1,12 @@
 # React + Vite
 
+This is a Frontend Mentor Challenge on building an accordion.
+
+it was built using:
+Semantic HTML 5
+Vanilla CSS
+Mobile First Approach
+React Library
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
