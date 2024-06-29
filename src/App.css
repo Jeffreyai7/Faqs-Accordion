@@ -46,6 +46,7 @@ margin-inline: auto;
 .accordion img{
   cursor: pointer;
 }
+
 .accordion p{
   padding-bottom: 1em;
   color: var(--Grayishpurple);
@@ -56,12 +57,14 @@ margin-inline: auto;
 }
 
 .hide{
-display: none;
+  transform: scale(0);
+  transition: transform 800ms linear;
+  position: absolute;
 }
 
 .show{
-  display: block;
-  transition: display 2s ease-in-out 250ms;
+  transform: scale(1);
+  transition: transform 800ms ease-out;
 }
 
 @media screen and (min-width: 450px) {
